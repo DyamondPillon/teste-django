@@ -8,9 +8,9 @@ def home(request):
         'name':'Hello World'
     })
 
-def contato(request):
-    return render(request,'recipes/contato.html')
+# def contato(request):
+#     return render(request,'recipes/contato.html')
 
 
-def sobre(request):
-    return render(request,'recipes/sobre.html')
+# def sobre(request):
+#     return render(request,'recipes/sobre.html')
